@@ -1,4 +1,9 @@
 <?php
-	$text = 'Hello world!';
-	echo '<h1>'.$text.'</h1>';
+	require_once('helpers.php');
+
+	if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+		servePage('index', 'Home');
+	} else {
+		echo '<h1 style="align: center; text-align: center;">POST request not allowed</h1>';
+	}
 ?>
