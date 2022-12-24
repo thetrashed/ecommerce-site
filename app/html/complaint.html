@@ -1,0 +1,35 @@
+<h1>Complaint Form:</h1><br/>
+<form class="contact-form" action="contact.php" method="POST">
+	<div class="contact-form-data">
+		<fieldset>
+			<label class="contact-form-data">Name:</label>
+			<input type="text" class="form_data" id="cus_fname" name="cus_fname" placeholder="First Name" required/>
+			<input type="text" class="form_data right" id="cus_lname" name="cus_lname" placeholder="Last Name" required/>
+
+			<label for="cus_phone" class="contact-form-data">Contact Number:</label>
+			<input type="text" class="contact-form-data" id="cus_phone" name="cus_phone" placeholder="0xxx-xxxxxxx" pattern="0\d{3}[-]\d{7}" required/> 
+			<label for="cus_addr" id="email_addr" class="contact-form-data">Email Address:</label>
+			<input type="email" class="contact-form-data right" id="email_addr" name="email_addr" placeholder="abc@provider.com">
+
+			<label for="con_po_no" class="contact-form-data">Contact P.O. No.:</label>
+			<input type="text" class="contact-form-data" id="con_po_no" name="con_po_no" placeholder=""/>
+			<label for="invoice_no" class="contact-form-data">Invoice Number:</label>
+			<input type="text" class="contact-form-data right" id="invoice_no" name="invoice_no" placeholder="AB230251" pattern="[A-Z]{2}\d{6}" required/> 
+
+			<label for="prod_no" class="contact-form-data">Product Number:</label>
+			<input type="text" class="contact-form-data"  id="" name="prod_no" pattern="[A-Z]{3}[-]\d{4}" placeholder="ABC-1234">
+			<label for="prod_desc" class="contact-form-data">Product Category:</label>
+			<input type="text" id="prod_cat" class="contact-form-data right" name="prod_cat" placeholder="Utilities/Cookware">
+
+			<label for="prev_exp" id="prev_exp_lab">Have you experienced such an inconvenience on our behalf before:</label>
+			<select id="prev_exp" name="prev_exp" class="contact-form-data">
+				<option value="Yes">Yes</option>
+				<option value="No">No</option>
+			</select>
+
+			<label for="comp_det" class="contact-form-data">Complaint Details:</label>
+			<textarea name="comp_det" id="comp_det" rows=5 wrap="soft" maxlength=255 placeholder="Enter Complaint Details (Max Characters: 255)"></textarea>
+		<input type="submit" value="Submit" id="submit">
+		</fieldset>
+	</div>
+</form>

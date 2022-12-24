@@ -5,6 +5,7 @@
 	 *
 	 */
 
+	--white: #fefefe;
 	--nord0: #2E3440;  
 	--nord1: #3B4252;   
 	--nord2: #434C5E;
@@ -24,9 +25,9 @@
 }
 
 body {
-	background-color: var(--nord1);
-	color: var(--nord6);
+	background-color: var(--white);
+	color: var(--nord1);
 
-	font-family: 'Sans-Serif';
+	font-family: 'Helvetica';
 }
 
