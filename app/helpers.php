@@ -75,4 +75,8 @@
 		$string = htmlspecialchars($string);
 		return $string;
 	}
+
+	function loginStatus() {
+		return !empty($_SESSION['member_username']);
+	}
 ?>

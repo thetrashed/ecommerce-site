@@ -5,11 +5,7 @@
 		if (!empty($_SERVER['QUERY_STRING'])) {
 			echoBody(substr($_SERVER['QUERY_STRING'], 2, null));
 		} else {
-			if (empty($_SESSION['member_username'])) {
-				servePage('contact', 'form', 'Contact Us', "contact", false);
-			} else {
-				servePage('contact', 'form', 'Contact Us', "contact", true);
-			}
+			servePage('contact', 'form', 'Contact Us', "contact", loginStatus());
 		}
 
 	} elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
