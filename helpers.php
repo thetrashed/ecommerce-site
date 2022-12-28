@@ -18,9 +18,10 @@
 		}
 			
 		$nav_style = '<link rel=stylesheet href="'.$STYLE_DIR.'navbar.css"/>';
+		$footer_style = '<link rel=stylesheet href="'.$STYLE_DIR.'footer.css"/>';
 		$body_style = '<link rel=stylesheet href="'.$STYLE_DIR.'body.css"/>';
 
-		$style = $page_style.$nav_style.$body_style;
+		$style = $page_style.$nav_style.$footer_style.$body_style;
 		if (!empty($script)) {
 			$script_head = '<script src="'.$SCRIPT_DIR.$script.'.js"></script>';
 		} else {
@@ -29,7 +30,7 @@
 
 		$header = fileRead($HEADER_FILE).$script_head.$style.makeTitle($title).'</head><body>';
 
-		$body_data = genNavbar($NAVBAR, $login_status).fileRead($HTML_DIR.$page_name.'.html');
+		$body_data = genNavbar($NAVBAR, $login_status).fileRead($HTML_DIR.$page_name.'.html').fileRead($HTML_DIR.'footer.html');
 		$body_close = '</body></html>';
 
 		echo $header.$body_data.$body_close;

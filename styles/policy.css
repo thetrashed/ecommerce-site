@@ -1,0 +1,32 @@
+.policy { 
+	background-color: inherit;
+	color: inherit;
+
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	align-items: center
+}
+
+.policy h1 {
+	padding-bottom: 50px;
+}
+
+.policy ul {
+	list-style: disc;
+
+	padding-left: 30px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.policy p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.policy a {
+	text-decoration: none;
+	color: var(--nord8);
+}
