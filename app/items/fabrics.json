@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Winter Light Printed Khaddar | Top Bottoms Dupatta, 2 Piece",
+		"category": "fabrics",
+		"price": "Rs. 2990",
+		"prodid": "SKU0001",
+		"sale": null,
+		"color": "purple",
+		"description": "Top Fabric: Printed Light Khaddar Front and Back | 2.5m\nLight Khaddar Sleeves | 0.75m\nBottom Fabric: Dyed Khaddar | 2.5m\n Technique: Printed",
+		"img": "items/images/prod1_fab.jpeg",
+		"stock": 15,
+		"feature": true
+	},
+	{
+		"name": "Printed Embroidered Light Khaddar | Top Bottoms Duputta, 3 Piece",
+		"category": "fabrics",
+		"price": "Rs. 4690",
+		"sale": "Rs 3283",
+		"prodid": "SKU0002",
+		"color": "purple",
+		"description": "Top Fabric: Dyed Embroidered Light Khaddar | 3m\nBottom Fabric: Dyed Light Khaddar | 2.5m\nDupatta Fabric: Digital Printed Tennis Net | 2.5m\nTechnique: Printed Embroidered\nValue Additions: Embroidered Organza Top Hem Border | 1m\tEmbroidered Organza Back Motif | 1 Piece\nDescription: Signature Printed Embroidered Top Bottoms Duputta",
+		"img": "items/images/prod2_fab.jpg",
+		"stock": 3,
+		"feature": false 
+	},
+	{
+		"name": "Printed Embroidered Khaddar | Top Bottoms Dupatta, 3 Piece",
+		"category": "fabrics",
+		"price": "Rs. 8490",
+		"sale": "Rs 5943",
+		"prodid": "SKU0003",
+		"color": "light brown",
+		"description": "Top Fabric: Digital Print Embroidered Khaddar | 3m\nBottom Fabric: Dyed Khaddar | 2.5m\nDupatta Fabric: Digital Printed Crinkle Chiffon | 2.5m\nTechnique: Printed Embroidered\nDescription: Signature Printed Embroidered Top Bottoms Duputta",
+		"img": "items/images/prod3_fab.jpg",
+		"stock": 31,
+		"feature": false
+	},
+	{
+		"name": "Dyed Embroidered Karandi | Top Bottoms, 2 Piece",
+		"category": "fabrics",
+		"price": "Rs. 3190",
+		"sale": "Rs 2233",
+		"prodid": "SKU0004",
+		"color": "black white",
+		"description": "Top Fabric: Dyed Embroidered Karandi | 3m\nBottom Fabric: Dyed Karandi | 2.5m\nTechnique: Dyed Embroidered\nDescription: Essential Dyed Embroidered Top Bottoms Duputta",
+		"img": "items/images/prod4_fab.jpg",
+		"stock": 19,
+		"feature": false 
+	}
+]

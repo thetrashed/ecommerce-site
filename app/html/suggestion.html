@@ -1,0 +1,23 @@
+<h1>Suggestion Form:</h1><br/>
+<form class="contact-form" action="contact.php" method="POST">
+	<div class="contact-form-data">
+		<fieldset>
+			<label class="contact-form-data">Name:</label>
+			<input type="text" class="contact-form-data" id="cus_fname" name="cus_fname" placeholder="First Name" required/>
+			<input type="text" class="contact-form-data right" id="cus_lname" name="cus_lname" placeholder="Last Name" required/>
+
+			<label for="cus_addr" id="email_addr" class="contact-form-data">Email Address:</label>
+			<input type="email" id="email-addr" class="contact-form-data" id="email_addr" name="email_addr" placeholder="abc@provider.com">
+
+			<label for="cus_phone" class="contact-form-data">Contact Number:</label>
+			<input type="text" class="contact-form-data" id="cus_phone" name="cus_phone" placeholder="0xxx-xxxxxxx" pattern="0\d{3}[-]\d{7}" required/> 
+			<label for="cus_po_no" class="contact-form-data">Contact P.O. No.:</label>
+			<input type="text" class="contact-form-data right" id="cus_po_no" name="cus_po_no" placeholder="44000"/>
+
+			<label for="sug_det" id="prev_exp_lab" class="contact-form-data">Suggestion Details:</label>
+			<textarea name="sug_det" id="comp_det" rows=5 wrap="soft" maxlength=255 placeholder="Enter Suggestion Details (Max Characters: 255)" required></textarea>
+
+			<input type="submit" value="Submit" id="submit">
+		</fieldset>
+	</div>
+</form>

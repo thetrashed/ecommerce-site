@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Drop Shoulder Dyed Embroidered | Cambric",
+		"category": "ready to wear",
+		"price": "Rs. 4190",
+		"sale": "Rs 2514",
+		"prodid": "SKU0005",
+		"color": "pink",
+		"size": "S M L",
+		"img": "items/images/prod5_r2w.jpg",
+		"stock": 1,
+		"detail": "Fit: Slim Fit\nTechnique: Dyed Embroidered\nFabric Content: Cambric | 100% Cotton",
+		"description": "Essential Embroidered Kurta",
+		"feature": false
+	},
+	{
+		"name": "Drop Shoulder Printed | Cambric",
+		"category": "ready to wear",
+		"price": "Rs. 3490",
+		"sale": "Rs 2094",
+		"prodid": "SKU0006",
+		"color": "beige",
+		"size": "S M L XL",
+		"img": "items/images/prod6_r2w.jpg",
+		"stock": null,
+		"detail": "Fit: Relaxed Fit | Loose, Baggy Fit\nTechnique: Printed\nFabric Content: Cambric | 100% Cotton",
+		"description": "Essential Printed Kurta",
+		"feature": false
+	},
+	{
+		"name": "Classic Kurta Dyed Embroidered | Cambric",
+		"category": "ready to wear",
+		"price": "Rs. 5490",
+		"sale": "Rs 2745",
+		"prodid": "SKU0007",
+		"color": "jade",
+		"size": "XS M XL",
+		"img": "items/images/prod7_r2w.jpg",
+		"stock": 21,
+		"detail": "Fit: Regular Fit | Comfortable, Slightly Loose Fit\nTechnique: Dyed Embroidered\nFabric Content: Cambric | 100% Cotton",
+		"description": "Signature Dyed Embroidered Kurta",
+		"feature": true
+	},
+	{
+		"name": "Classic Kameez Printed | Cambric",
+		"category": "ready to wear",
+		"price": "Rs. 3190",
+		"sale": "Rs 1914",
+		"prodid": "SKU0008",
+		"color": "black white",
+		"size": "XS XL",
+		"img": "items/images/prod8_r2w.jpg",
+		"stock": 9,
+		"detail": "Fit: Smart Fit | Neat, Easy Fit\nTechnique: Printed\nFabric Content: Cambric | 100% Cotton",
+		"description": "Essential Printed Kameez",
+		"feature": false
+	}
+]

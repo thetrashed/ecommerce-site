@@ -1,0 +1,67 @@
+[
+	{
+		"name":"Casuals Knits Printed Hoodies",
+		"category": "Western",
+		"price": "Rs. 3190",
+		"sale": "Rs. 1914",
+		"prodid": "SKU0009",
+		"size": "M L XL",
+		"color": "pink",
+		"description": "Fit: Relaxed Fit\nTechnique: Printed",
+		"img": "items/images/prod9_western.jpeg",
+		"stock": 10,
+		"feature": false
+	},
+	{
+		"name": " Turtle Neck Sweater",
+		"category": "Western",
+		"price": "Rs. 4190",
+		"sale": null,
+		"prodid": "SKU0010",
+		"color": "white",
+		"size": "S M L",
+		"description": "Fit: Regular Fit\nFabric Content : 55% Polyester, 45% Modal\nTechnique : Dyed",
+		"img": "items/images/prod10_western.jpeg",
+		"stock": null,
+		"feature": false
+	},
+	{
+		"name": " Round Neck T-shirt",
+		"category": "Western",
+		"price": "Rs. 1990",
+		"sale":  "Rs. 1190",
+		"prodid": "SKU0011",
+		"color": "grey",
+		"size": "XS S M L",
+		"description": "Fit: Smart Fit\nFabric Content: 95% Cotton, 5% Lycra\nTechnique: Dyed",
+		"img": "items/images/prod11_western.jpg",
+		"stock": 13,
+		"feature": true
+	},
+	{
+		"name": " Flared Pants",
+		"category": "Western",
+		"price": "Rs. 2490",
+		"sale":  "Rs. 1494",
+		"prodid": "SKU0012",
+		"color": "dark blue",
+		"size": "M",
+		"description": "Fit: Relaxed Fit\nFabric Content: 95% Cotton, 5% Lycra\nTechnique: Dyed",
+		"img": "items/images/prod12_western.jpg",
+		"stock": 3,
+		"feature": false
+	},
+	{
+		"name": " Polo Sweater",
+		"category": "Western",
+		"price": "Rs. 4990",
+		"sale":  null,
+		"prodid": "SKU0013",
+		"color": "blue",
+		"size": "S M L",
+		"description": "Fit: Relaxed Fit,Fabric Content: 45% Acrylic, 30% Polyester, 25% Nylon\nTechnique: Dyed",
+		"img": "items/images/prod13_western.jpg",
+		"stock": 10,
+		"feature": false
+	}
+]

@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Eau De Parfum and Miniature",
+		"category": "Perfumes",
+		"price": "Rs. 3490",
+		"sale":  null,
+		"prodid": "SKU0014",
+		"size":"80ML",
+		"img": "items/images/prod14_perf.jpg",
+		"stock": 15,
+		"feature": false
+	},
+	{
+		"name": "Oh So Exotic! | Gift Set",
+		"category": "Perfumes",
+		"price": "Rs. 3690",
+		"sale":  null,
+		"prodid": "SKU0015",
+		"size":"100ML",
+		"img": "items/images/prod15_perf.jpg",
+		"stock": null,
+		"feature": false
+	},
+	{
+		"name": " Pink Dream",
+		"category": "Perfumes",
+		"price": "Rs. 3490",
+		"sale":  "Rs. 2443",
+		"prodid": "SKU0016",
+		"size":"100ML",
+		"img": "items/images/prod16_perf.jpg",
+		"stock": 10,
+		"feature": true 
+	},
+	{
+		"name": "Bright Memory",
+		"category": "Perfumes",
+		"price": "Rs. 3490",
+		"sale":  "Rs. 2443",
+		"prodid": "SKU0017",
+		"size":"100ML",
+		"img": "items/images/prod17_perf.jpg",
+		"stock": 14,
+		"feature": false
+	}
+]
