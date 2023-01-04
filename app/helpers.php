@@ -18,14 +18,14 @@
 		}
 			
 		$nav_style = '<link rel=stylesheet href="'.$STYLE_DIR.'navbar.css"/>';
+		$alerts_style = '<link rel=stylesheet href="node_modules/alertifyjs/build/css/alertify.min.css">'.'<link rel=stylesheet href="node_modules/alertifyjs/build/css/themes/default.min.css">';
 		$footer_style = '<link rel=stylesheet href="'.$STYLE_DIR.'footer.css"/>';
 		$body_style = '<link rel=stylesheet href="'.$STYLE_DIR.'body.css"/>';
 
-		$style = $page_style.$nav_style.$footer_style.$body_style;
+		$style = $page_style.$nav_style.$footer_style.$body_style.$alerts_style;
+		$script_head = '<script src="node_modules/alertifyjs/build/alertify.min.js"></script>';
 		if (!empty($script)) {
-			$script_head = '<script src="'.$SCRIPT_DIR.$script.'.js"></script>';
-		} else {
-			$script_head = '';
+			$script_head = $script_head.'<script src="'.$SCRIPT_DIR.$script.'.js"></script>';
 		}
 		$header = fileRead($HEADER_FILE).$script_head.$style.makeTitle($title).'</head>';
 
@@ -33,6 +33,8 @@
 			$body_open = '<body onload="requestProducts(\''.$page_name.'\', \''.$QUERY_STRING.'\')">';
 		} elseif ($page_name == 'about_us') {
 			$body_open = '<body style="background-color: var(--nord2)">';
+		} elseif ($page_name == 'cart') {
+			$body_open = '<body onload="getCartItems()">';
 		} else {
 			$body_open = '<body>';
 		}

@@ -7,9 +7,12 @@
 		if (empty($_SERVER['QUERY_STRING'])) {
 			servePage('index', 'products', 'Home', 'products', loginStatus(), 'hp');
 		} else { 
-			getData('name,price,sale,stock,img', 'feature != 0', 'products', 'products.db');
+			echo getDBData('name,price,sale,stock,img,prodid', 'feature != 0', 'products');
 		}
 	} else {
-		echo '<h1 style="align: center; text-align: center;">POST request not allowed</h1>';
+		echo '<h1 style="align: center; text-align: center;">Request Method Not Supported</h1>';
+		sleep(2);
+		header('Location: /index');
+		exit();
 	}
 ?>

@@ -1,0 +1,28 @@
+<h1>Sign Up:</h1><br/>
+<form class="contact-form" action="signup.php" method="POST">
+	<div class="contact-form-data">
+		<fieldset>
+			<label class="contact-form-data">Name:</label>
+			<input type="text" class="contact-form-data" id="cus_fname" name="cus_fname" placeholder="First Name" required/>
+			<input type="text" class="contact-form-data right" id="cus_lname" name="cus_lname" placeholder="Last Name" required/>
+
+
+			<label for="username" id="username" class="contact-form-data">Username: <span style="font-size:10px; padding-top: 2px; padding-left: 2px;" id="uniqueness"></span></label>
+			<input type="text" class="contact-form-data" id="username" name="username" placeholder="" required oninput="validateUNUniqueness(this.value)">
+			<label for="cus_addr" id="email_addr" class="contact-form-data">Email Address:</label>
+			<input type="email" class="contact-form-data right" id="email_addr" name="email_addr" placeholder="abc@provider.com" required>
+
+			<label for="password" id="password" class="contact-form-data">Password:</label>
+			<input type="password" class="contact-form-data" id="password" name="password" placeholder="" required>
+
+			<label for="cus_phone" class="contact-form-data">Contact Number:</label>
+			<input type="text" class="contact-form-data right" id="cus_phone" name="cus_phone" placeholder="0xxx-xxxxxxx" pattern="0\d{3}[-]\d{7}" required/> 
+			<label for="con_po_no" class="contact-form-data">Contact P.O. No.:</label>
+			<input type="text" class="contact-form-data" id="con_po_no" name="con_po_no" placeholder="" required/>
+
+			<span class="contact-form-data"></span><span class="contact-form-data right"></span>
+
+			<input type="submit" value="Submit" id="submit">
+		</fieldset>
+	</div>
+</form>

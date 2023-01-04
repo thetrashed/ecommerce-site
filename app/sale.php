@@ -7,7 +7,7 @@
 		if (empty($_SERVER['QUERY_STRING'])) {
 			servePage('sale', 'products', 'Sale', 'products', loginStatus(), 'sale');
 		} else {
-			getData('name,price,sale,stock,img', 'sale != price', 'products', 'products.db');
+			echo getDBData('name,price,sale,stock,img,prodid', 'sale != price', 'products');
 		}
 	} else {
 		echo '<h1 style="align: center; text-align: center;">POST request not allowed</h1>';

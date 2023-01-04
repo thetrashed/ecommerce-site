@@ -91,6 +91,7 @@
 	color: var(--white);
 
 	border-radius: 12px;
+	margin-right: 5px;
 
 	margin-top: 25px;
 	justify-content: center;
@@ -220,8 +221,8 @@
 	grid-template-columns: max-content max-content max-content lfr;
 }
 
-.login-form input[type=submit] {
-	background-color: var(--nord0);
+.login-form input[type='submit']{
+	background-color: var(--nord0) !important;
 	color: var(--white);
 
 	width: 200px;
@@ -230,6 +231,11 @@
 
 	padding: 10px;
 	margin: 10px;
+
+	align-content: center;
+	text-align: center;
+
+	box-sizing: border-box;
 
 	border-radius: 8px;
 }
@@ -249,8 +255,9 @@
 	align-items: left;
 }
 
-.login-form input[type=submit]:hover {
+.login-form input[type='submit']:hover {
 	background-color: var(--nord2);
+	cursor: pointer;
 }
 
 .login-form input {
@@ -268,4 +275,24 @@
 
 .login-form input:focus {
 	border: 3px solid var(--nord1);
+}
+
+.login-form a {
+	font-size: 10px;
+	text-decoration: none;
+	color: var(--nord10);
+}
+
+.contact-form input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-form input[type=number] {
+	-moz-appearance: textfield;
+}
+
+h1 {
+	padding-top: 30px;
+	text-align: center;
 }
